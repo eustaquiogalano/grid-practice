@@ -18,15 +18,35 @@ body {
 
 header {
     grid-area: header;
-    background-color: red;
 }
 
 main {
     grid-area: main;
-    background-color: blue;
+    background-color: rgb(37, 37, 37);
+
+    display: grid;
+    place-content: center   ;
 }
 
 footer {
     grid-area: footer;
+}
+
+header,
+footer {
+    background-color: gray;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: [cline1] 50px [cline2] 50px [cline3] 50px [cline4];
+    grid-template-rows: [rline1] 50px [rline2] 50px [rline3] 50px [rline4];
+
+    background-color: rgb(230, 230, 230);
+    height: 200px;
+    width: 200px;
+}
+
+#item1 {
     background-color: green;
 }
