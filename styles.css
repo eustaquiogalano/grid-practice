@@ -94,7 +94,27 @@ section {
     }
 }
 
-#grid-container2 {
+#grid2 {
+    display: grid;
+    gap: .5rem;
+    place-content: center end;
+    grid-template-columns: [cline1] 50px [cline2] 50px [cline3] 50px [cline4];
+    grid-template-rows: [rline1] 50px [rline2] 50px [rline3] 50px [rline4];
+    justify-items: end;
+    align-items: end;
 
+    & > div {
+        border: 2px dotted black;
+        background-color: green;        
+    }
+
+    #item8-g2 {
+        align-self: start;
+        justify-self: start;
+    }
+}
+
+#grid3 {
+    
 }
 
