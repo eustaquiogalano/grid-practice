@@ -41,12 +41,22 @@ footer {
     display: grid;
     grid-template-columns: [cline1] 50px [cline2] 50px [cline3] 50px [cline4];
     grid-template-rows: [rline1] 50px [rline2] 50px [rline3] 50px [rline4];
+    place-content: center;
 
     background-color: rgb(230, 230, 230);
     height: 200px;
     width: 200px;
 }
 
+#grid-container > div {
+    border: 1px solid black;
+}
+
 #item1 {
     background-color: green;
+
+    grid-column-start: cline2;
+    grid-column-end: cline4;
+    grid-row-start: rline2;
+    grid-row-end: rline4;
 }
