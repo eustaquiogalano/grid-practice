@@ -112,9 +112,14 @@ section {
         align-self: start;
         justify-self: start;
     }
+
+    #item2-g2 {
+        justify-self: stretch;
+        align-self: stretch;
+    }
 }
 
 #grid3 {
-    
+
 }
 
