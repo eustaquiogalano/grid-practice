@@ -42,6 +42,7 @@ footer {
     grid-template-columns: [cline1] 50px [cline2] 50px [cline3] 50px [cline4];
     grid-template-rows: [rline1] 50px [rline2] 50px [rline3] 50px [rline4];
     place-content: center;
+    gap: .5rem;
 
     background-color: rgb(230, 230, 230);
     height: 200px;
@@ -59,4 +60,31 @@ footer {
     grid-column-end: cline4;
     grid-row-start: rline2;
     grid-row-end: rline4;
+}
+
+#item2 {
+    background-color: pink;
+
+    grid-column-start: cline1;
+    grid-column-end: cline2;
+    grid-row-start: rline1;
+    grid-row-end: rline3;
+}
+
+#item3 {
+    background-color: yellow;
+
+    grid-column-start: cline1;
+    grid-column-end: cline2;
+    grid-row-start: rline3;
+    grid-row-end: rline4;
+}
+
+#item4 {
+    background-color: rgb(255, 0, 0);
+
+    grid-column-start: cline2;
+    grid-column-end: cline4;
+    grid-row-start: rline1;
+    grid-row-end: rline2;
 }
