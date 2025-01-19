@@ -114,8 +114,7 @@ section {
     }
 
     #item2-g2 {
-        justify-self: stretch;
-        align-self: stretch;
+        place-self: center stretch;
     }
 }
 
