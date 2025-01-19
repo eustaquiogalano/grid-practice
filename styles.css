@@ -27,6 +27,7 @@ main {
     display: grid;
     place-content: center;
     gap: .5rem;
+    grid-auto-flow: column;
     
 }
 
